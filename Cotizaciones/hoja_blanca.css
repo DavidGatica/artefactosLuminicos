@@ -1,0 +1,33 @@
+#hoja{
+
+    height: auto;
+    width: 1070px;
+
+    background: #FFFFFF;
+
+}
+
+.h7{
+    color:black;  
+}
+
+#tablilla
+{
+	width: 55em;
+}
+
+.thead
+{
+	font-size: 0.7em;
+}
+
+.botmargin
+{
+	margin: 1em;
+}
+
+.precios
+{
+	font-size: 0.7em;
+	text-align: right;
+}

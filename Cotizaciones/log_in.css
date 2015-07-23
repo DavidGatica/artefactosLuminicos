@@ -1,0 +1,225 @@
+/*-----*-----*/
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+/**/
+
+/*-----body-----*/
+body 
+{
+    padding-bottom: 20px;
+    color: #C7D8E8;
+    background: #F4F2F3;
+}
+
+/**/
+
+
+/*-----pagina-----*/
+
+#pagina
+{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    position: relative;
+    margin: 1em auto;
+    width: 1000px;
+}
+
+#pagina p
+{
+	padding: 2px;
+    line-height: 1.0em;
+    text-align: justify;
+}
+/**/
+
+/*-----header-----*/
+#header
+{
+    height: 112px;
+    background: #F4F2F3;
+}
+#header h1
+{
+	padding-top: 50px;
+    font-size: 38px;
+    text-align: center;
+    color: #0B212D;
+}
+/**/
+
+/*-----contenedor_izquierdo-----*/
+#contenedor_izquierdo
+{
+	float: left;
+	height: auto;
+	width: auto;
+}
+/**/
+
+/*-----intro_izquierda-----*/
+#intro_izquierda
+{
+	float: left;
+    height: 350px;
+	width: 400px;
+	background: #B1DAD4;
+	border-radius: 10px 0px 0px 0px;
+	-moz-border-radius: 10px 0px 0px 0px;
+	-webkit-border-radius: 10px 0px 0px 0px;
+}
+
+#logo
+{
+	margin-top: 45px;
+	margin-left: 30px;
+}
+
+/**/
+
+/*-----contenedor_derecho-----*/
+#contenedor_derecho
+{
+	float: right;
+	height: auto;
+	width: auto;
+}
+/**/
+
+/*-----intro_derecha-----*/
+#intro_derecha
+{
+	float: right;
+	height: 350px;
+	width: 600px;
+	background: #167271;
+	border-radius: 0px 10px 10px 0px;
+	-moz-border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+}
+
+#intro_derecha h2
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: 36px;
+    color: #B1DAD4;
+}
+
+#intro_derecha p
+{
+	font-weight: bold;
+    padding-left: 50px;
+	padding-right: 50px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #F4F2F3;
+}
+
+#intro_derecha a
+{
+    color: #F4F2F3;	
+    font-size: 20px;
+    font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+#intro_derecha form
+{
+	text-align: center;
+}
+
+.caja_ingreso 
+{
+    width: 150px;
+    height: 25px;
+    padding: 0 15px 2px;
+    text-align: center;
+	font-size: 17px;
+    border-radius: 10px;  
+	border: 0px;
+}
+/**/
+
+/*-----button-----*/
+.button
+{
+    display: block;
+    width: 100px;
+    height: 25px;
+	margin-left: 250px;
+    color: White; 
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 2px;
+    background: #BF4C00;
+	border: 0px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;    
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(7,48,51,1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(7,48,51,1);
+    box-shadow: 5px 5px 0px 0px rgba(7,48,51,1);
+}
+
+.button:active
+{
+    font-size: 17px;
+    color: black;
+    -moz-box-shadow:5px 5px 20px #0B4C5F;
+    -webkit-box-shadow:5px 5px 20px #0B4C5F;
+    box-shadow:5px 5px 20px #0B4C5F;
+}
+/**/
+
+/*-----pie_izquierdo-----*/
+#pie_izquierdo
+{
+	float: left;
+	height: auto;
+	width: auto;
+	background: #0D0D0B;
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+}
+
+#pie_izquierdo a
+{
+	margin: 10px;
+	margin-bottom: 10px;
+	text-decoration:none;
+}
+
+#logos
+{
+	margin: 8px;
+}
+/**/
+
+/*-----pie_derecho-----*/
+#pie_derecho
+{
+	float: right;
+	height: auto;
+	width: auto;	
+}
+
+#letraversion
+{
+    float:right;
+    color: #B4B3B4;
+    font-size: 30px;
+    font-weight: bold;       
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+/**/
+
+
+/*-----caja_ingreso-----*/
+
+/**/

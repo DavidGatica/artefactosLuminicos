@@ -1,0 +1,119 @@
+/*Tabla catalogo_prueba.php*/
+
+body {
+    padding-bottom: 20px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: #262626;
+    background: #F4F2F3;
+}
+
+
+#tform{
+    font-weight: bold;
+    font-size: 15px;	
+}
+
+
+
+.datagrid{
+    margin-top:0px;
+    background: #F4F2F3;
+}
+
+
+.datagrid table { 
+    margin:0 auto;
+    text-align: left; 
+    width: 1000px; 
+    border: 20px solid #006699; 
+    -webkit-border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    border-radius: 20px;
+} 
+
+
+
+
+
+.datagrid table td, .datagrid table th { 
+    padding: 9px 8px; 
+}
+
+.datagrid table thead th {
+    background:#354D79; 
+    color: #FFFFFF; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-left: 2px solid #1542BD;
+    -webkit-border-radius: 15px; 
+    -moz-border-radius: 15px; 
+    border-radius: 15px; 
+} 
+
+
+
+.datagrid table thead th:first-child { 
+    border: none;
+    background-color: #2E226B; 
+}
+
+/*.datagrid table tbody td { 
+color: #004666; 
+ 
+}*/
+
+#sombra{ 
+    background: #BEC9CF; 
+    color: #00608C; 
+    border-left: 2px solid #CFDBE0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+
+#sombra2{ 
+    background-color: #D3F2FF; 
+    color: #195977; 
+    border-left: 2px solid #CFDBE0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+
+.datagrid table tbody td:first-child { 
+    border-left: none;
+}
+
+.datagrid table tbody tr:last-child td { 
+    border-bottom: none; 
+}
+
+#caja_cat{
+
+
+    background: #225874;
+	border-radius: 10px 10px 10px 10px;
+    max-width: 500px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	color: #F4F2F3;
+    font-size: 17;
+    padding: 5;
+}
+
+#caja_cat2{
+
+
+    background: #2E226B;
+    border-radius: 10px 10px 10px 10px;
+    width:auto;
+    max-width: 950px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	color: #F4F2F3;
+    font-size: 17;
+    padding: 5;
+    text-align: center;
+}
+
+
