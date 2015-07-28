@@ -104,11 +104,12 @@ if ($cont == 1) {
             <select name="buscarVend">
             <option id="optionDefault" disabled selected>Seleccione...</option>
               ';
-               $sql0 = "SELECT * FROM `Usuarios`";
+               $sql0 = "SELECT nombre, apellido_p FROM `Usuarios`";
                 $resultado0 = query($sql0, $conexion);
                 while($campo0 = mysql_fetch_array($resultado0)){
                 $vendedor = $campo0['nombre'] . ' ' . $campo0['apellido_p'];
                 $id_usuario = $campo0['id_usuario'];
+                echo $id_usuario;
                 echo'
                   <option value="'.$id_usuario.'">'.$vendedor.'</option>
                '; }

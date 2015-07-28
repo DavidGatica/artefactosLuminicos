@@ -101,10 +101,10 @@ if ($cont == 1) {
         <div class="alineaIzquierda">
           <p class="centrarTexto">Por vendedor</p>
           <form action="administracion.php?sec=cotizaciones" method="POST">
-            <select name="buscarVend">
+            <select>
             <option id="optionDefault" disabled selected>Seleccione...</option>
               ';
-               $sql0 = "SELECT * FROM `Usuarios`";
+               $sql0 = "SELECT nombre, apellido_p FROM `Usuarios`";
                 $resultado0 = query($sql0, $conexion);
                 while($campo0 = mysql_fetch_array($resultado0)){
                 $vendedor = $campo0['nombre'] . ' ' . $campo0['apellido_p'];

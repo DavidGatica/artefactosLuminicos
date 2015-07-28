@@ -73,13 +73,7 @@ while ($campo = mysql_fetch_array($resultado)) {
 }
 
 if ($cont == 1) {
-  if(isset($_POST['buscarFecha']))
-    $buscarFecha = $_POST['buscarFecha'];
-  if(isset($_POST['buscarCliente']))
-    $buscarFicha = $_POST['buscarCliente'];
-  if(isset($_POST['buscarVend']))
-    $buscarFicha = $_POST['buscarVend'];
-    echo '
+    ?>
     <div id="buscadores">
       <div class="centrar">
         <div class="alineaIzquierda">
@@ -99,28 +93,16 @@ if ($cont == 1) {
           </form>
         </div>
         <div class="alineaIzquierda">
-          <p class="centrarTexto">Por vendedor</p>
+          <p class="centrarTexto">Por número</p>
           <form action="administracion.php?sec=cotizaciones" method="POST">
-            <select name="buscarVend">
-            <option id="optionDefault" disabled selected>Seleccione...</option>
-              ';
-               $sql0 = "SELECT * FROM `Usuarios`";
-                $resultado0 = query($sql0, $conexion);
-                while($campo0 = mysql_fetch_array($resultado0)){
-                $vendedor = $campo0['nombre'] . ' ' . $campo0['apellido_p'];
-                $id_usuario = $campo0['id_usuario'];
-                echo'
-                  <option value="'.$id_usuario.'">'.$vendedor.'</option>
-               '; }
-               echo'
-            </select>
+            <input type="text" name="buscarNum" />
             <br />
             <input type="submit" class="botonBusqueda" />
           </form>
         </div>
       </div>
     </div>
-    ';
+    <?php 
       $siContiene = 0 ;
       if(isset($_POST['buscarFecha'])){
       $buscarFecha = $_POST['buscarFecha'];
@@ -132,10 +114,10 @@ if ($cont == 1) {
         $siContiene = 1;
         require_once('porCliente.php');
       }
-      if(isset($_POST['buscarVend'])){
-        $buscarNum = $_POST['buscarVend'];
+      if(isset($_POST['buscarNum'])){
+        $buscarNum = $_POST['buscarNum'];
         $siContiene = 1;
-        require_once('porVendedor.php');
+        echo $buscarNum;
       }
       if($siContiene==0)
         require_once('ysitose.php');

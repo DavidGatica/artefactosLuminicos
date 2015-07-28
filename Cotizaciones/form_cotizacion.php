@@ -1,5 +1,8 @@
-<!doctype html>
 <html>
+    <link href="hoja_blanca.css" rel="stylesheet" type="text/css" />
+    <div align="center">
+        <div id="hoja">
+            <!DOCTYPE html >
 
             <?php
 //Capturamos el usuario autenticado
@@ -134,155 +137,122 @@
 
 /////////////////COMIENZA LA PAGINA WEB//////////////+
             ?>
+            <head>
+                <title>Formulario de cotización</title>
+                <meta name="keywords" content="" />
+                <meta name="description" content="" />
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <meta name="language" content="en" />
+                <link href="style.css" rel="stylesheet" type="text/css" />
+            </head>
 
-	<div id="imprimeme">
-	<head>
-		<title>Formato de cotización.</title>
+            <body class="h7"> <br><br><br>
 
-		<meta charset="utf-8" />
-		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link href="estilo.css" rel="stylesheet" type="text/css" />
-		
-		<script>
-			function imprimir() 
-			{
+                <div id="page">
+                    <div align="center">
+                        <table border=0 cellspacing="2px" width="90%">
+                            <tr >
 
-				var objeto = document.getElementById('imprimeme');  //obtenemos el objeto a imprimir
-				var ventana = window.open('', '_blank');  //abrimos una ventana vacía nueva
-				ventana.document.write(objeto.innerHTML);  //imprimimos el HTML del objeto en la nueva ventana
-				ventana.document.close();  //cerramos el documento
-				ventana.print();  //imprimimos la ventana
-				ventana.close();  //cerramos la ventana
-			}
-		</script>
-		
-	
-		
-	</head>
+                                <td height="33.3%" width="33.3%" id="bordet">
+                                    <div align="center"> <img align="center" src="images/logoe1.png" width="120" height="100"><br> Artefactos Lumínicos S.A. de C.V. </div>
+                                </td>
 
-	<body>		
-		
-			<div id="pagina">
-			
-			<form method="POST" action="partidas3.php">
-		
-			<div class="izquierda padding">
-			
-				<img src="images/logo.png" alt="Logo de la empresa"/>	
-				
-			</div>	
-			
-			<div id="cliente" class="izquierda">
-				
-				<div class="titulo center">CLIENTE / QUOTE TO</div>
-				<div class="terminos">
-					<hr/>
-				
-					<div class="izquierda paddingleft">
-					
-						Razón Social:
-						<?php echo $empresa;?>						
-						<br/>
-						<br/>
-						Dirección y datos fiscales:
-						<?php echo "$calle " . "$num_int," . " $num_ext, " . "$colonia, " . "C.P. $cp" 
-						. ",$municipio " . "$estado"; ?>
-					
-					
-					</div>
-					
-					<div class="break"></div>
-					
-					
-					<div class="izquierda paddingleft cliente_bot_left">
-						<br/>
-						At'n: <?php echo $nombre_c; ?>
-						<br/>
-						E-mail: <?php echo $e_mail_c; ?>
-					</div>	
-					
-					<div class="izquierda bigpaddingleft cliente_bot_right">
-						<br />
-						Tels: <br /><?php echo "$telefono1 " . "<br />" . "$telefono2"; ?>
-					</div>				
-					</div>
-								
-			</div>			
-			
-			<div id="cotizacion" class="izquierda">
-			
-				<div class="titulo black center bold">COTIZACION / QUOTE</div>
-				
-					<hr/>
-					<div class="parrafo center">					
 
-						TÉRMINOS Y CONDICIONES / TERMS
-						<hr/>				
-					</div>
-					
-					<div class="parrafo justify padrl terminos">
-					
-						*Precios sujetos a cambio sin previo aviso.
-						<br />
-						*Toda devolución autorizada causará un cargo del 35%.
-						<br />
-						*No se aceptan cancelaciones.
-						<br />
-						*La empresa se reserva el derecho de hacer cargos por almacenaje 72 hrs. posteriores al aviso de mercancia preparada.
-						<br />
-						*Si se confirma el pedido considerar el tipo de cambio del diario oficial de la federacion del dia que se realice la orden.
-					</div>
-								
-			</div>			
-			
-			<div id="no" class="izquierda">
-			
-				<div class="titulo center">No. <span class="red-font bold-font">BLM1900</span></div>  
-				
-					<hr/>
-					<div class="parrafo center">
-					
-						FECHA / DATE
-						<hr/>
-						<?php echo $fecha;?>
-						<br/>
-						<hr/>
-						PROYECTO / PROJECT
-						<hr/>
-						<textarea id="project-area" autofocus></textarea>
-						<hr/>
-						CONDICIONES DE PAGO / TERMS
-						<hr/>
-						<textarea id="project-area" autofocus></textarea>
-					
-					</div>
-								
-			</div>
-			
-											<div class="break"></div>
-										
 
-			<br />
-			<div id="tamaniotabla">
-			
-			<table class="table">
-			
-				<tr>
-				
-					<td class="bd parrafo" id="uno">P / IT</td>
-					<td class="bd parrafo" id="dos">PROD / PROD</td>
-					<td class="bd parrafo" id="tres">DESCRIPCIÓN / DESCRIPTION</td>
-					<td class="bd parrafo" id="cuatro">C / Q</td>
-					<td class="bd parrafo" id="cinco">DESC/ DISC</td>
-					<td class="bd parrafo" id="seis">P UNIT / UNIT P</td>
-					<td>IMP. / AMO.</td>
-				
-				</tr>
-				
-				<tr>
-				
-<?php
+                            <form method="POST" action="partidas3.php">
+
+                                <td height="33.3%" width="33.3%" id="bordet">
+                                    <div align="center">
+                                        <table>
+
+                                            <tr><td width="50%" align=right>
+                                                    N&uacute;mero de cotizaci&oacute;n:</td><td align=center width="50px"><input class="caja" type="text" name="id_cotizacion" disabled value="<?php echo $id_cotizacion; ?>" ></td></tr>
+
+                                            <tr><td width="50%" align=right>
+                                                    Fecha: </td><td align=center width="50px"><input class="caja" type="text" name="fecha" disabled value="<?php echo $fecha; ?>"> </td></tr>
+
+                                            <tr><td width="50%" align=right>
+                                                    Vigencia en Días: </td><td align=center width="50px"><input class="caja" type="text" placeholder="No vigencia en días" name="vigencia">
+                                                </td></tr>
+
+                                            <tr><td width="50%" align=right>
+                                                    Partidas: </td><td align=center width="50px"><input class="caja" type="text" name="no_partidas1" disabled value="<?php echo $no_partidas; ?>"></td></tr>
+
+                                        </table>
+
+                                    </div>
+                                </td>
+
+                                </tr>
+
+                                <tr>
+
+
+
+                                    <td id="bordet"><div align="center">
+                                            <br> <h3>Artefactos Lumínicos S.A. de C.V. </h3>
+                                            Av. Juárez No. 9-2, Col. San Mateo Ixtacalco,
+                                            <br>Cuautitlán Izcalli, Estado de México, C.P. 54713
+                                            <br>ventas@artefactosluminicos.com.mx
+                                            <br>www.artefactosluminicos.com.mx </div>
+                                    </td>
+                                    <td id="bordet"  align="left" ><br><h3>Condiciones de venta</h3>
+                                        <br>*Precios sujetos a cambio sin previo aviso.
+                                        <br>*Cotizaciones confirmadas en dolares hacer pago en dolares a la cuenta 451244981 
+                                        CLABE 012180004512449814 de Bancomer.
+                                        <br>*Toda devolución autorizada causará un cargo del 35%.
+                                        <br>*No se aceptan cancelaciones.
+                                        <br>*La empresa se reserva el derecho de hacer cargos por
+                                        almacenaje 72 hrs. posteriores al aviso de mercancia preparada.
+                                        <br>*Cualquier modificación de este documento lo invalidará.
+                                    </td>
+
+                                </tr>
+                        </table>
+                        <br><br>
+
+                        <table border=0 cellspacing="2px" width="90%">                  												
+                            <tr> <td id="bordet">              
+                                    <div align="center"><div class="h7">Datos del cliente</div> 
+                                        <textarea class="cajaa" align="Center" name="datos_cliente" rows="3" cols="28"><?php echo "$empresa " . "$calle " . "$num_int," . " $num_ext, " . "$colonia, " . "C.P. $cp" . ",$municipio " . "$estado"; ?> </textarea>     
+
+                                    </div><br>
+                                </td>
+
+                                <td id="bordet">
+                                    <div align="center"><div class="h7">Datos de contacto</div> 
+                                        <textarea  class="cajaa" align="Center" name="datos_contacto" rows="3" cols="28" ><?php echo "$nombre_c\n" . "Departamento de $departamento\n" . "Tels: $telefono1, " . "$telefono2\n" . "$e_mail_c"; ?></textarea></div><br>
+                                </td>
+                                <td id="bordet">
+                                    <div align="center"><div class="h7">Datos del vendedor</div>
+                                        <textarea  class="cajaa" align="Center" name="datos_vendedor" rows="3" cols="28" ><?php echo "$nombre $e_mail "; ?></textarea> </div><br>
+                                </td>
+
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+
+                    <div class="h7" align="center" style="font-size: 15px;">PONEMOS A SU AMABLE CONSIDERACIÓN EL SIGUIENTE PRESUPUESTO</div> <br>
+
+                    <div align="center">
+                        <table   border="4px" width="950" cellspacing="1px">
+
+                            <thead>
+                                <tr>
+                                    <th width="10%">Partida</th>
+                                    <th width="10%">Cantidad</th>
+                                    <th width="10%">Unidad</th>
+                                    <th width="10%">Catálogo</th>
+                                    <th width="40%">Descripción</th>
+                                    <th width="10%">Precio unitario</th>
+                                    <th width="10%">Precio total</th>
+                                </tr>
+                            </thead>
+
+                            <?php
                             $subtotal = 0;
                             $nom_partida = 0;
 //Obtener "tabla Partidas"
@@ -296,32 +266,29 @@
 
                                 echo
                                 "<tr>" .
-                                "<td>" . $campo['partida'] . "</td>";
+                                "<td align='center' id='texto1'>" . $campo['partida'] . "</td>";
 
-                                echo
-								"<td>" . $campo['catalogo'] . "</td>" .
-								"<td>" . $campo['descripcion'] . "</td>";
-								
-								if ($campo['cantidad'] == 0) {
+                                if ($campo['cantidad'] == 0) {
                                     echo
-                                    "<td> </td>";
+                                    "<td align='center' id='texto1'> </td>";
                                 } else {
                                     echo
-                                    "<td>" . $campo['cantidad'] . "</td>";
+                                    "<td align='center' id='texto1'>" . $campo['cantidad'] . "</td>";
                                 }
-								
-								echo
-                                "<td>" . $campo['unidad'] . "</td>"
-                                ;
+
+                                echo
+                                "<td align='center' id='texto1'>" . $campo['unidad'] . "</td>" .
+                                "<td align='center' id='texto1'>" . $campo['catalogo'] . "</td>" .
+                                "<td align='justify' id='texto1'>" . $campo['descripcion'] . "</td>";
 
                                 if ($campo['precio_uni'] == 0) {
                                     echo
-                                    "<td> </td>" .
-                                    "<td> </td>";
+                                    "<td id='aligder'> </td>" .
+                                    "<td id='aligder'> </td>";
                                 } else {
                                     echo
-                                    "<td>" . $precio_uni . "</td>" .
-                                    "<td>" . $precio_total . "</td>";
+                                    "<td id='aligder'>" . $precio_uni . "</td>" .
+                                    "<td id='aligder'>" . $precio_total . "</td>";
                                 }
                                 "</tr>";
                                 $subtotal = $subtotal + $campo['precio_total'];
@@ -343,26 +310,17 @@
                             $subtotal = number_format($subtotal, 2);
                             $subtotal2 = number_format($subtotal2, 2);
                             ?>
-				
-				</tr>			
-				
-			</table>
-			
-			</div>
-			
-			<br />
-			
-		<div id="pie">
-		
-			<div id="clausulas">
-			
-				<div class="titulo center bold">OBSERVACIONES:</div>
-				<hr />
-				<table class="terminos tabla">
+
+                            <tr>
+                                <td style="border: hidden" colspan="5" >
+                                    <table border="3px" width="500px" id="margen">
                                         <thead>
                                             <tr>
-                                                <th>NO.</th>
-                                                <th class="descripcionEncabezado">DESCRIPCIÓN</th>
+                                                <th width="20%" align="center" colspan="2" id="sin_borde">Notas</th>						
+                                            </tr>
+                                            <tr>
+                                                <th width="20%" align="center">No de nota</th>
+                                                <th width="80%" align="center">Descripción</th>
                                             </tr>
                                         </thead>
 
@@ -374,103 +332,93 @@ $i = 1;
 while ($campo = mysql_fetch_array($resultado)) {
     echo
     "<tr>" .
-    "<td>" . $i . "</td>" .
-    "<td id='texto1'>" . $campo['descripcion'] . "</td>" .
+    "<td align='center' class='lenotas' style='color:black;'>" . $i . "</td>" .
+    "<td align='justify' class='lenotas' style='color:black;' >" . $campo['descripcion'] . "</td>" .
     "</tr>";
     $i++;
 }
 ?>
 
 
-                                    </table>
-			
-			</div>
-			
-			<div id="firmas">		
-				<div class="titulo2 center bold">GERENCIA VENTAS/SALES MANAGEMENT</div>
-				<hr />
-				<br />
-				<br />
-				<br />
-				<hr />
-				<div class="parrafo center">FIRMA / SIGNATURE</div>
-				<hr/>
-							
-				<div class="titulo2 center bold">VENDEDOR / SELLER</div>
-				<hr />
-					<div class="parrafo izquierda paddingleft">					
-					Nombre: 
-					<?php echo "$nombre"; ?>
-					<br/>
-					<br/>
-					E-mail: <?php echo "$e_mail "; ?>			
-					</div>					
-					<div class="derecha parrafo normalpaddingright">					
-						Tel:	
-					</div>
-			
-			</div>
-			
-			<div id="dinero">
-			
-				<div id="conceptos">
-				
-					<div class="parrafo2 center">DCTO. P.P.P.</div>
-					<hr/>
-					<div class="parrafo2 center">DISCOUNT</div>
-					<hr/>
-					<div class="parrafo2 center">SUBTOTAL</div>
-					<hr/>
-					<div class="parrafo2 center">SUBTOTAL</div>
-					<hr/>
-					<div class="parrafo2 center">I.V.A. 16%</div>
-					<hr/>
-					<div class="parrafo2 center">TAXES</div>
-					<hr/>
-					<div class="titulo2 center bold">TOTAL A PAGAR</div>
-					<hr/>
-					<div class="titulo2 center bold">PAY THIS AMOUNT</div>
-				
-				</div>
-				
-				<div id="cantidades">
-				
-					<br />
-					<hr />
-					<br />
-					<hr />
-					<br />
-					<hr />
-					<br />
-					
-				</div>
-			
-			</div>			
-		
-			</div>
-			
-			<br />
-			
-			<div class="parrafo2 center">
-				Avenida Benito Juárez 9 Loc. 1 Ef. 2 San Mateo Ixtacalco, Cuautitlán Izcalli, 
-				Estado de México, C.P. 54713 Tel. (55) 58701510 y (55) 26202313
-			</div>
-			
-			</div>
-		</div>
-		<div class="center">
-		<?php if ($cancelar == 0) { ?>
-                    <input type="submit" value="Crear" id="imprimir">
+                                    </table></div>
+
+                                </td>
+
+                                <td>
+
+                                    <br>
+
+                                    <div class="h7" style="font-size: 15px;"> <?php echo 'Divisa'; ?></div> <HR width=100% align="left">
+                                    <div class="h7" style="font-size: 15px;"> <?php echo 'Subtotal'; ?></div> <HR width=100% align="left">
+<?php if ($descuento > 0) { ?>
+                                        <div class="h7" style="font-size: 15px;"> <?php echo 'Descuento'; ?></div> <HR width=100% align="left">
+                                        <div class="h7" style="font-size: 15px;"> <?php echo 'Subt. c/desc.'; ?></div> <HR width=100% align="left">
+<?php } ?>
+                                    <div class="h7" style="font-size: 15px;"> <?php echo 'I.V.A.'; ?></div> <HR width=100% align="left">
+                                    <div class="h7" style="font-size: 15px;"> <?php echo 'Total'; ?></div> 
+                                </td>
+
+
+                                <td>
+                                    <br><div align="right">   
+                                        <select id="select1" name="divisa">
+                                            <option  value="M.N." name="mn">M.N</option>
+                                            <option value="Dolar" name="dolar">Dolares</option>
+                                        </select><HR width=100% align="right">
+
+                                        <div class="h7" style="font-size: 15px;"> <?php echo $subtotal; ?></div> <HR width=100% align="left">
+<?php if ($descuento > 0) { ?>
+                                            <div class="h7" style="font-size: 15px;"> <?php echo "$descuento2 %"; ?></div> <HR width=100% align="left">
+                                            <div class="h7" style="font-size: 15px;"> <?php echo $subtotal2; ?></div> <HR width=100% align="left">
+<?php } ?>
+                                        <div class="h7" style="font-size: 15px;"> <?php echo $iva; ?></div><HR width=100% align="right">
+                                        <div class="h7" style="font-size: 15px;"> <?php echo $total; ?></div>
+                                </td>
+                                </div>
+
+                            </tr>
+                        </table></div>
+
+
+
+
+                    <br><br><br>
+                    <table border=1 cellspacing="2px">
+                        <tr>
+                            <td>
+                                Condiciones de entrega<br>
+                                *El tiempo de entrega corre a partir de recibir su pedido original firmado<br> haciendo referencia a este número de cotización y de confirmar el 			anticipó<br> correspondiente en nuestra cuenta.<br>
+                                *Para embalajes especiales considerar cargos extras.<br>
+                                *Los fletes foraneos corren por cuenta y riesgo del cliente.<br>
+                                *En pedidos mínimo de $12,500.00 L.A.B. D.F. y zona metropolitana, excepto postes.<br>
+                                *No se liberan materiales sin el pago total de la mercancia.
+                            </td>
+
+                            <td width="210px">
+                                <h3 align="center">Tiempo de entrega</h3><br><br>
+                                <div align="center"><input class="caja" type="text" placeholder="Tiempo de entrega" name="t_entrega"  align="center"> </div>
+                            </td>
+
+                            <td width="210px">
+                                <h3 align="center">Condiciones de pago</h3><br><br>
+                                <div align="center"><input class="caja" type="text" placeholder="Condiciones de pago" name="c_pago"  align="center"></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div><br><br>
+<?php if ($cancelar == 0) { ?>
+                    <div align="center"><input type="submit" value="Crear" id="botonp"></div>
 <?php } else { ?>
 
-                    <input type="submit" value="Aceptar" id="imprimir">
+                    <div align="center"><input type="submit" value="Aceptar" id="botonp"></div></a>
 
                 <?php } ?>
-		</div>
-		</form>
-		<!--"<div class="center">
-		<button onclick="imprimir();" id="imprimir">Imprimir</button>
-		</div>-->
-	</body>
 
+
+                </form>
+
+            </body>
+        </div>
 </html>
+
+</div>

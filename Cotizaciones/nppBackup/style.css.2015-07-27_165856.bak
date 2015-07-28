@@ -1499,17 +1499,9 @@ hr.raya:after { /* Not really supposed to work, but does */
   border-radius: 0;
 }
 
-#buscadores option:first-child{
-  color: black;
-  background: gray;
-}
-
 #buscadores input[type="submit"] {
   width: 5em;
   border: none;
   margin: 0;
 }
 
-#optionDefault {
-  background: #ababab;
-}

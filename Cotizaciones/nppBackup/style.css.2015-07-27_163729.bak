@@ -1461,6 +1461,7 @@ hr.raya:after { /* Not really supposed to work, but does */
   width: 95%;
   float: left;
   height: 4.8em;
+  border: 1px solid black;
 }
 
 .alineaIzquierda {
@@ -1490,26 +1491,9 @@ hr.raya:after { /* Not really supposed to work, but does */
   padding: 0.3em;
 }
 
-#buscadores select{
-  width: 7em;
-  border: none;
-  margin: 0;
-  padding: 0.3em;
-  background: white;
-  border-radius: 0;
-}
-
-#buscadores option:first-child{
-  color: black;
-  background: gray;
-}
-
 #buscadores input[type="submit"] {
   width: 5em;
   border: none;
   margin: 0;
 }
 
-#optionDefault {
-  background: #ababab;
-}

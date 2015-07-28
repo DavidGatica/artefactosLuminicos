@@ -1510,6 +1510,3 @@ hr.raya:after { /* Not really supposed to work, but does */
   margin: 0;
 }
 
-#optionDefault {
-  background: #ababab;
-}

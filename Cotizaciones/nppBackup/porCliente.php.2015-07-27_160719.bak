@@ -1,0 +1,32 @@
+<div id="barra">    
+        <div class="CSSTableGenerator" >
+          <table border=2 align="center">
+            <tr>
+                <td width="10%">No</td>                        
+                <td width="10%">Fecha</td>
+                <td width="43%">Cliente</td>
+                <td width="25%">Vendedor</td>
+                <td width="12%" height="25px" colspan="3">Gesti&oacute;n</td>
+            </tr>
+
+
+
+            <?php
+            $buscarCliente = $_POST['buscarCliente'];
+            
+            $sql0="SELECT * FROM Clientes WHERE empresa like '%$buscarCliente%'";
+            $resultado0 = query($sql0, $conexion);
+            while ($campo0 = mysql_fetch_array($resultado0)) {
+              $id_num_cliente = $campo0['id_num_cliente'];
+              
+              $sql1="SELECT * FROM Cotizaciones WHERE id_cliente = '$id_num_cliente'";
+              $resultado1 = query($sql1, $conexion);
+              while ($campo1 = mysql_fetch_array($resultado1)) {
+                $id_cliente = $campo1['id_cliente'];
+                echo $id_cliente;
+              }
+            }
+            ?>
+          </table>
+        </div>
+    </div>

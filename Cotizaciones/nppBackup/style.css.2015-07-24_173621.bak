@@ -1458,9 +1458,8 @@ hr.raya:after { /* Not really supposed to work, but does */
 #buscadores {
   background-color: #5a8780;
   padding: 1em;
-  width: 95%;
+  width: 94%;
   float: left;
-  height: 4.8em;
 }
 
 .alineaIzquierda {
@@ -1468,48 +1467,9 @@ hr.raya:after { /* Not really supposed to work, but does */
   margin-right: 3em;
 }
 
-.alineaIzquierda:last-child {
-  margin-right: 0;
-}
-
 .centrar {
-  text-align: center;
   margin: auto;
-  width: 78.2%;  
-}
-
-.centrarTexto {
-  text-align: center;
-  margin: auto;
-}
-
-#buscadores input[type="text"] {
-  width: 7em;
-  border: none;
-  margin: 0;
-  padding: 0.3em;
-}
-
-#buscadores select{
-  width: 7em;
-  border: none;
-  margin: 0;
-  padding: 0.3em;
-  background: white;
-  border-radius: 0;
-}
-
-#buscadores option:first-child{
-  color: black;
-  background: gray;
-}
-
-#buscadores input[type="submit"] {
-  width: 5em;
-  border: none;
-  margin: 0;
-}
-
-#optionDefault {
-  background: #ababab;
+  border: 1px solid black;
+  width: 90%;
+  height: 5em;
 }
