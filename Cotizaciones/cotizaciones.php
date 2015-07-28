@@ -14,11 +14,22 @@
             window.location = union;
         }
     }
+    
+    function Restaurar(id_cotizacion) {
+        if (confirm("Esta seguro que desea activar de nuevo la cotizacion?"))
+        {
+            dire = "activar_cotizacion.php?id_cotizacion=";
+            var union = dire.concat(id_cotizacion);
+            window.location = union;
+        }
+
+    }
 </script>
 
 
 <?php
-//Capturamos el usuario 
+//Capturamos el usuario autenticado
+
 
 
 if (!isset($_SESSION['usuario'])) {
@@ -26,76 +37,101 @@ if (!isset($_SESSION['usuario'])) {
 }
 $id_usuario = $_SESSION['usuario'];
 
+if (!isset($_GET['opcion']))
+    $opcion = "nada";
+else
+    $opcion = $_GET['opcion'];
+
+if (!isset($_POST['rfc']))
+    $rfc = "nada";
+else
+    $rfc = $_POST['rfc'];
+
+if (!isset($_POST['empresa']))
+    $empresa = "nada";
+else
+    $empresa = $_POST['empresa'];
+
 
 $cont = 0;
 //Funcion que conecta la base de datos
 $conexion = conectar();
 
 //Obtener Datos de la empresa a cambiar "tabla clientes"
-$sql = "SELECT * FROM `Cotizaciones` WHERE `id_usuario` = '$id_usuario' AND activo = '1'";
+$sql = "SELECT * FROM `Cotizaciones`";
 $resultado = query($sql, $conexion);
 while ($campo = mysql_fetch_array($resultado)) {
     $cont = 1;
 }
 
 if ($cont == 1) {
-    ?>
-    <div id="barra">
-        <div class="CSSTableGenerator" >
-            <table align="center">
-
-                <tr>
-
-                    <td width="15%">No de Cotizaci&oacute;n</td>
-                    <td width="10%">Fecha</td>
-                    <td width="60%">Cliente</td>
-                    <td width="15%" height="25px" colspan="3">Gesti&oacute;n</td>
-
-
-                </tr>
-
-
-
-                <?php
-//Obtener Datos de la empresa a cambiar "tabla clientes"
-                $sql = "SELECT * FROM `Cotizaciones` WHERE `id_usuario` = '$id_usuario' AND activo = '1' ORDER BY id_cotizacion DESC";
-                $resultado = query($sql, $conexion);
-                while ($campo = mysql_fetch_array($resultado)) {
-                    $id_cliente = $campo['id_cliente'];
-                    $id_cotizacion = $campo['id_cotizacion'];
-
-                    echo "<tr>";
-
-                    echo "<td align='center'>" . $campo['id_cotizacion'] . "</td>";
-
-                    echo "<td align='center'>" . $campo['fecha'] . "</td>";
-
-                    $id_num_cliente = $campo['id_num_cliente'];
-
-                    $sql2 = "SELECT empresa FROM `Clientes` WHERE id_num_cliente = '$id_cliente'";
-                    $resultado2 = query($sql2, $conexion);
-                    $campo2 = mysql_fetch_array($resultado2);
-					$empresa = $campo2['empresa'];
-
-                    echo "<td>" . $campo2['empresa'] . "</td>";
-
-                    echo "<td height='35px'> "
-                    . "<a href='ver_cotizacion.php?id_cotizacion=" . $id_cotizacion . "' ><div class='ver' align='center'>Ver</div></a></td><td height='35px'>"
-                    . "<a href='editar_cotizacion.php?id_cotizacion=" . $id_cotizacion .  "&empresa=". $empresa . "&cotiz_usuario=". $id_usuario ."' ><div class='editar' align='center'> Editar</div></a> <br> <a href='reusar.php?id_cotizacion=" . $id_cotizacion . "' ><div class='reusar' align='center'>Reusar</div></a></td><td>"
-                    
-					. "<div class='eliminar' align='center' onclick='Eliminar(" . $id_cotizacion . ")'> Eliminar</div></td>";
-
-                    echo "</tr>";
-                }
-                ?>
-            </table>
-
-
+  if(isset($_POST['buscarFecha']))
+    $buscarFecha = $_POST['buscarFecha'];
+  if(isset($_POST['buscarCliente']))
+    $buscarFicha = $_POST['buscarCliente'];
+  if(isset($_POST['buscarVend']))
+    $buscarFicha = $_POST['buscarVend'];
+    echo '
+    <div id="buscadores">
+      <div class="centrar">
+        <div class="alineaIzquierda">
+          <p class="centrarTexto">Por fecha</p>
+          <form action="administracion.php?sec=cotizaciones" method="POST">
+            <input type="text" name="buscarFecha" />
+            <br />
+            <input type="submit" class="botonBusqueda" />
+          </form>
         </div>
+        <div class="alineaIzquierda">
+          <p class="centrarTexto">Por cliente</p>
+          <form action="administracion.php?sec=cotizaciones" method="POST">
+            <input type="text" name="buscarCliente" />
+            <br />
+            <input type="submit" class="botonBusqueda" />
+          </form>
+        </div>
+        <div class="alineaIzquierda">
+          <p class="centrarTexto">Por vendedor</p>
+          <form action="administracion.php?sec=cotizaciones" method="POST">
+            <select name="buscarVend">
+            <option id="optionDefault" disabled selected>Seleccione...</option>
+              ';
+               $sql0 = "SELECT * FROM `Usuarios`";
+                $resultado0 = query($sql0, $conexion);
+                while($campo0 = mysql_fetch_array($resultado0)){
+                $vendedor = $campo0['nombre'] . ' ' . $campo0['apellido_p'];
+                $id_usuario = $campo0['id_usuario'];
+                echo'
+                  <option value="'.$id_usuario.'">'.$vendedor.'</option>
+               '; }
+               echo'
+            </select>
+            <br />
+            <input type="submit" class="botonBusqueda" />
+          </form>
+        </div>
+      </div>
     </div>
-    <?php ?>
-
-
+    ';
+      $siContiene = 0 ;
+      if(isset($_POST['buscarFecha'])){
+      $buscarFecha = $_POST['buscarFecha'];
+      $siContiene = 1;
+      require_once('porFecha.php');
+      }
+      if(isset($_POST['buscarCliente'])){
+        $buscarCliente = $_POST['buscarCliente'];
+        $siContiene = 1;
+        require_once('porCliente.php');
+      }
+      if(isset($_POST['buscarVend'])){
+        $buscarNum = $_POST['buscarVend'];
+        $siContiene = 1;
+        require_once('porVendedor.php');
+      }
+      if($siContiene==0)
+        require_once('ysitose.php');
+    ?>
 
 <?php } ?>
 
