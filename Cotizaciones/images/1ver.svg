@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg4285"
+   viewBox="0 0 30.05 17.9"
+   height="5.0517778mm"
+   width="8.4807777mm">
+  <defs
+     id="defs4287">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path6643" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata4290">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(2060.3248,226.17141)"
+     id="layer1">
+    <g
+       transform="matrix(12.219015,0,0,10.171415,182.66925,296.93234)"
+       id="g4872">
+      <g
+         transform="matrix(0.08183966,0,0,0.09831474,-17.641356,34.166482)"
+         id="g6631">
+        <g
+           transform="translate(244.50264,-994.87282)"
+           id="_x37_7_Essential_Icons">
+	
+<g
+   transform="translate(-565.26168,424.91115)"
+   id="g7068">
+  <g
+     transform="translate(-612.06849,-71.540473)"
+     id="_x37_7_Essential_Icons-4">
+	
+<g
+   transform="translate(-444.2595,434.99006)"
+   id="g7091">
+  <g
+     transform="translate(-667.71108,-699.50685)"
+     id="_x37_7_Essential_Icons-7">
+	
+<g
+   style="fill:#ffffff;fill-opacity:1"
+   transform="translate(16.389105,28.293732)"
+   id="g7151">
+  <path
+     style="fill:#ffffff;fill-opacity:1"
+     d="m 30.8,15.4 c -0.3,-0.3 -6.3,-7.8 -14,-8.3 -0.3,0 -0.5,0 -0.8,0 -0.3,0 -0.5,0 -0.8,0 -7.7,0.5 -13.7,8 -14,8.3 -0.3,0.4 -0.3,0.9 0,1.2 C 1.5,17 8,25 16,25 c 8,0 14.5,-8 14.8,-8.4 0.3,-0.3 0.3,-0.9 0,-1.2 z M 16,19 c -2.8,0 -5,-2.2 -5,-5 0,-2.8 2.2,-5 5,-5 2.8,0 5,2.2 5,5 0,2.8 -2.2,5 -5,5 z"
+     id="path7141" />
+  <path
+     style="fill:#ffffff;fill-opacity:1"
+     d="m 16,15 c -0.6,0 -1,-0.4 -1,-1 0,-0.6 -0.4,-1 -1,-1 -0.6,0 -1,0.4 -1,1 0,1.7 1.3,3 3,3 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+     id="path7143" />
+</g>
+</g>
+  <g
+     id="Guides-3">
+</g>
+</g>
+</g>
+  <g
+     id="Guides-1">
+</g>
+</g>
+</g>
+        <g
+           id="Guides">
+</g>
+      </g>
+    </g>
+  </g>
+</svg>

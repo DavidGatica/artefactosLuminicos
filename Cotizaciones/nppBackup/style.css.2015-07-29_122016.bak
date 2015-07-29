@@ -1521,5 +1521,5 @@ hr.raya:after { /* Not really supposed to work, but does */
 }
 
 .correccion {
-  word-wrap: break-word;
+  
 }

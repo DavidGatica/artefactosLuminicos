@@ -1519,7 +1519,3 @@ hr.raya:after { /* Not really supposed to work, but does */
 #optionDefault {
   background: #ababab;
 }
-
-.correccion {
-  word-wrap: break-word;
-}

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 850.00001 650.00001"
+   height="650"
+   width="850">
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="EmptyTriangleOutL"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#1f787e;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path9556" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DiamondLend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,-5.6,0)"
+         style="fill:#1f787e;fill-opacity:1;fill-rule:evenodd;stroke:#1f787e;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 0,-7.0710768 Z"
+         id="path9493" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#1f787e;fill-opacity:1;fill-rule:evenodd;stroke:#1f787e;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path9399" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Tail"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <g
+         style="fill:#1f787e;fill-opacity:1;stroke:#1f787e;stroke-opacity:1"
+         transform="scale(-1.2,-1.2)"
+         id="g9432">
+        <path
+           style="fill:#1f787e;fill-opacity:1;fill-rule:evenodd;stroke:#1f787e;stroke-width:0.80000001;stroke-linecap:round;stroke-opacity:1"
+           d="M -3.8048674,-3.9585227 0.54352094,0"
+           id="path9434" />
+        <path
+           style="fill:#1f787e;fill-opacity:1;fill-rule:evenodd;stroke:#1f787e;stroke-width:0.80000001;stroke-linecap:round;stroke-opacity:1"
+           d="M -1.2866832,-3.9585227 3.0617053,0"
+           id="path9436" />
+        <path
+           style="fill:#1f787e;fill-opacity:1;fill-rule:evenodd;stroke:#1f787e;stroke-width:0.80000001;stroke-linecap:round;stroke-opacity:1"
+           d="M 1.3053582,-3.9585227 5.6537466,0"
+           id="path9438" />
+        <path
+           style="fill:#1f787e;fill-opacity:1;fill-rule:evenodd;stroke:#1f787e;stroke-width:0.80000001;stroke-linecap:round;stroke-opacity:1"
+           d="M -3.8048674,4.1775838 0.54352094,0.21974226"
+           id="path9440" />
+        <path
+           style="fill:#1f787e;fill-opacity:1;fill-rule:evenodd;stroke:#1f787e;stroke-width:0.80000001;stroke-linecap:round;stroke-opacity:1"
+           d="M -1.2866832,4.1775838 3.0617053,0.21974226"
+           id="path9442" />
+        <path
+           style="fill:#1f787e;fill-opacity:1;fill-rule:evenodd;stroke:#1f787e;stroke-width:0.80000001;stroke-linecap:round;stroke-opacity:1"
+           d="M 1.3053582,4.1775838 5.6537466,0.21974226"
+           id="path9444" />
+      </g>
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#1f787e;fill-opacity:1;fill-rule:evenodd;stroke:#1f787e;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path9396" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-402.36211)"
+     id="layer1">
+    <path
+       transform="matrix(0.50337506,0,0,0.43922355,252.63019,540.40637)"
+       d="M 827.8475,584.76941 C 763.42439,828.77876 491.24419,948.87666 258.56684,878.80045 -37.306048,789.69144 -180.86042,455.59543 -87.886156,170.4745 -20.337342,-36.67508 156.92407,-193.55941 366.99158,-246.25106"
+       id="path8588"
+       style="fill:none;fill-rule:evenodd;stroke:#1f787e;stroke-width:63.80175112;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       id="path10984"
+       d="m 439.97064,434.02509 -192.23943,332.95076 406.2792,0 L 481.58949,481.58948 352.76925,711.48405 556.89977,709.5022"
+       style="fill:none;fill-rule:evenodd;stroke:#1f787e;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text10986"
+       y="864.08649"
+       x="204.13054"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan10990"
+         y="864.08649"
+         x="204.13054"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;line-height:125%;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan11000">rtefactos</tspan></tspan></text>
+    <text
+       id="text11002"
+       y="988.94299"
+       x="223.94901"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;line-height:125%;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         y="988.94299"
+         x="223.94901"
+         id="tspan11004">uminicos,</tspan></text>
+    <text
+       id="text11006"
+       y="856.15912"
+       x="39.636993"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:250px;line-height:125%;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:250px;line-height:125%;font-family:'Monotype Corsiva';-inkscape-font-specification:'Monotype Corsiva, Italic';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         y="856.15912"
+         x="39.636993"
+         id="tspan11008">A</tspan></text>
+    <text
+       id="text11010"
+       y="1032.5437"
+       x="124.85653"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:250px;line-height:125%;font-family:'Goudy Old Style';-inkscape-font-specification:'Goudy Old Style, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1032.5437"
+         x="124.85653"
+         id="tspan11012">L</tspan></text>
+    <text
+       id="text11014"
+       y="1030.5619"
+       x="596.53674"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1030.5619"
+         x="596.53674"
+         id="tspan11016">s.a. de c.v.</tspan></text>
+  </g>
+</svg>

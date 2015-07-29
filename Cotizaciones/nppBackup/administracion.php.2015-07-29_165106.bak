@@ -166,7 +166,7 @@ while ($campo = mysql_fetch_array($resultado)) {
                             </li> 
 
 
-                            <li onclick="cotizaciones()"><img src="images/1cotizaciones.svg" width="20px"><span><?php
+                            <li onclick="cotizaciones()"><img src="images/1cotizaciones.png" width="20px"><span><?php
                                     if ($seccion == "cotizaciones") {
                                         echo "<div id=seleccion>";
                                     }
@@ -176,7 +176,7 @@ while ($campo = mysql_fetch_array($resultado)) {
                                     }
                                     ?></span></li>
 									
-							<li onclick="orden()"><img src="images/1shop.svg" width="20px"><span><?php
+							<li onclick="orden()"><img src="images/shop.png" width="20px"><span><?php
                                     if ($seccion == "orden") {
                                         echo "<div id=seleccion>";
                                     }

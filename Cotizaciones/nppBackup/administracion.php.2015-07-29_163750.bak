@@ -166,7 +166,7 @@ while ($campo = mysql_fetch_array($resultado)) {
                             </li> 
 
 
-                            <li onclick="cotizaciones()"><img src="images/1cotizaciones.svg" width="20px"><span><?php
+                            <li onclick="cotizaciones()"><img src="images/1cotizaciones.png" width="20px"><span><?php
                                     if ($seccion == "cotizaciones") {
                                         echo "<div id=seleccion>";
                                     }
@@ -176,7 +176,7 @@ while ($campo = mysql_fetch_array($resultado)) {
                                     }
                                     ?></span></li>
 									
-							<li onclick="orden()"><img src="images/1shop.svg" width="20px"><span><?php
+							<li onclick="orden()"><img src="images/shop.png" width="20px"><span><?php
                                     if ($seccion == "orden") {
                                         echo "<div id=seleccion>";
                                     }
@@ -207,9 +207,9 @@ while ($campo = mysql_fetch_array($resultado)) {
                                     }
                                     ?></span>
                                 <ul>
-                                    <li onclick="agregar_u()"><img src="images/2anadir.svg" width="20px"><span>Agregar usuario</span></li>
-                                    <li onclick="eliminar_u()"><img src="images/1eliminar.svg" width="20px"><span>Eliminar usuario</span></li>
-                                    <li onclick="modificar_u()"><img src="images/1modificar.svg" width="20px"><span>Modificar usuario</span></li>
+                                    <li onclick="agregar_u()"><img src="images/2anadir.png" width="20px"><span>Agregar usuario</span></li>
+                                    <li onclick="eliminar_u()"><img src="images/1eliminar.png" width="20px"><span>Eliminar usuario</span></li>
+                                    <li onclick="modificar_u()"><img src="images/1modificar.png" width="20px"><span>Modificar usuario</span></li>
                                 </ul>       
                             </li>
 
@@ -223,19 +223,19 @@ while ($campo = mysql_fetch_array($resultado)) {
                                     }
                                     ?></span>
                                 <ul>
-                                    <li onclick="agregar_p()"><img src="images/2anadir.svg" width="20px"><span>Agregar producto</span></li>
-                                    <li onclick="eliminar_p()"><img src="images/1eliminar.svg" width="20px"><span>Eliminar producto</span></li>
-                                    <li onclick="modificar_p()"><img src="images/1modificar.svg" width="20px"><span>Modificar producto</span></li>
-                                    <li onclick="ver_p()"><img src="images/1ver.svg" width="20px"><span>Visualizar productos</span></li>
+                                    <li onclick="agregar_p()"><img src="images/2anadir.png" width="20px"><span>Agregar producto</span></li>
+                                    <li onclick="eliminar_p()"><img src="images/1eliminar.png" width="20px"><span>Eliminar producto</span></li>
+                                    <li onclick="modificar_p()"><img src="images/1modificar.png" width="20px"><span>Modificar producto</span></li>
+                                    <li onclick="ver_p()"><img src="images/1ver.png" width="20px"><span>Visualizar productos</span></li>
                                 </ul>       
                             </li>
                             <li>
                               <img src="images/1proyectos.png" width="17px"><span>Proyectos</span>
                               <ul>
-                                <li onclick="agregar_pro()"><img src="images/2anadir.svg" width="20px"><span>Agregar proyecto</span></li>
-                                <li onclick="eliminar_pro()"><img src="images/1eliminar.svg" width="20px"><span>Eliminar proyecto</span></li>
-                                <li onclick="modificar_pro()"><img src="images/1modificar.svg" width="20px"><span>Modificar proyecto</span></li>
-                                <li onclick="ver_pro()"><img src="images/1ver.svg" width="20px"><span>Visualizar proyectos</span></li>
+                                <li onclick="agregar_pro()"><img src="images/2anadir.png" width="20px"><span>Agregar proyecto</span></li>
+                                <li onclick="eliminar_pro()"><img src="images/1eliminar.png" width="20px"><span>Eliminar proyecto</span></li>
+                                <li onclick="modificar_pro()"><img src="images/1modificar.png" width="20px"><span>Modificar proyecto</span></li>
+                                <li onclick="ver_pro()"><img src="images/1ver.png" width="20px"><span>Visualizar proyectos</span></li>
                               </ul> 
                             </li>
                         </ul>
