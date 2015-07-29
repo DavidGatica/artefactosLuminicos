@@ -1463,6 +1463,15 @@ hr.raya:after { /* Not really supposed to work, but does */
   height: 4.8em;
 }
 
+#buscadoresV {
+  background-color: #5a8780;
+  padding: 1em;
+  width: 50%;
+  float: left;
+  height: 4.8em;
+  border: 1px solid black;
+}
+
 .alineaIzquierda {
   float: left;
   margin-right: 3em;
@@ -1476,12 +1485,6 @@ hr.raya:after { /* Not really supposed to work, but does */
   text-align: center;
   margin: auto;
   width: 78.2%;  
-}
-
-.centrarV {
-  text-align: center;
-  margin: auto;
-  width: 48.5%;
 }
 
 .centrarTexto {

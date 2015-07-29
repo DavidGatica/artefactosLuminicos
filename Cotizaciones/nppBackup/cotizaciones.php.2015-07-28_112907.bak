@@ -73,10 +73,10 @@ if ($cont == 1) {
     $buscarFicha = $_POST['buscarVend'];
     echo '
     <div id="buscadores">
-      <div class="centrarV">
+      <div class="centrar">
         <div class="alineaIzquierda">
           <p class="centrarTexto">Por fecha</p>
-          <form action="ventas.php?sec=cotizaciones" method="POST">
+          <form action="administracion.php?sec=cotizaciones" method="POST">
             <input type="text" name="buscarFecha" />
             <br />
             <input type="submit" class="botonBusqueda" />
@@ -84,12 +84,32 @@ if ($cont == 1) {
         </div>
         <div class="alineaIzquierda">
           <p class="centrarTexto">Por cliente</p>
-          <form action="ventas.php?sec=cotizaciones" method="POST">
+          <form action="administracion.php?sec=cotizaciones" method="POST">
             <input type="text" name="buscarCliente" />
             <br />
             <input type="submit" class="botonBusqueda" />
           </form>
-        </div>        
+        </div>
+        <div class="alineaIzquierda">
+          <p class="centrarTexto">Por vendedor</p>
+          <form action="administracion.php?sec=cotizaciones" method="POST">
+            <select name="buscarVend">
+            <option id="optionDefault" disabled selected>Seleccione...</option>
+              ';
+               $sql0 = "SELECT * FROM `Usuarios`";
+                $resultado0 = query($sql0, $conexion);
+                while($campo0 = mysql_fetch_array($resultado0)){
+                $vendedor = $campo0['nombre'] . ' ' . $campo0['apellido_p'];
+                $id_usuario = $campo0['id_usuario'];
+                echo'
+                  <option value="'.$id_usuario.'">'.$vendedor.'</option>
+               '; }
+               echo'
+            </select>
+            <br />
+            <input type="submit" class="botonBusqueda" />
+          </form>
+        </div>
       </div>
     </div>
     ';
@@ -97,20 +117,20 @@ if ($cont == 1) {
       if(isset($_POST['buscarFecha'])){
       $buscarFecha = $_POST['buscarFecha'];
       $siContiene = 1;
-      require_once('porFecha2.php');
+      require_once('porFecha.php');
       }
       if(isset($_POST['buscarCliente'])){
         $buscarCliente = $_POST['buscarCliente'];
         $siContiene = 1;
-        require_once('porCliente2.php');
+        require_once('porCliente.php');
       }
       if(isset($_POST['buscarVend'])){
         $buscarNum = $_POST['buscarVend'];
         $siContiene = 1;
-        require_once('porVendedor2.php');
+        require_once('porVendedor.php');
       }
       if($siContiene==0)
-        require_once('ysitose2.php');
+        require_once('ysitose.php');
     ?>
 
 <?php } ?>

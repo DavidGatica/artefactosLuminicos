@@ -1478,12 +1478,6 @@ hr.raya:after { /* Not really supposed to work, but does */
   width: 78.2%;  
 }
 
-.centrarV {
-  text-align: center;
-  margin: auto;
-  width: 48.5%;
-}
-
 .centrarTexto {
   text-align: center;
   margin: auto;

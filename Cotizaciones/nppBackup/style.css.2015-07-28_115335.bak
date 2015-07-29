@@ -1489,7 +1489,7 @@ hr.raya:after { /* Not really supposed to work, but does */
   margin: auto;
 }
 
-#buscadores input[type="text"] {
+#buscadores input[type="date"] {
   width: 7em;
   border: none;
   margin: 0;

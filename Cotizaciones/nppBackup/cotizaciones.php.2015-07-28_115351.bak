@@ -77,7 +77,7 @@ if ($cont == 1) {
         <div class="alineaIzquierda">
           <p class="centrarTexto">Por fecha</p>
           <form action="ventas.php?sec=cotizaciones" method="POST">
-            <input type="text" name="buscarFecha" />
+            <input type="date" name="buscarFecha" />
             <br />
             <input type="submit" class="botonBusqueda" />
           </form>

@@ -1481,7 +1481,8 @@ hr.raya:after { /* Not really supposed to work, but does */
 .centrarV {
   text-align: center;
   margin: auto;
-  width: 48.5%;
+  width: 46%;
+  border: 1px solid black;
 }
 
 .centrarTexto {

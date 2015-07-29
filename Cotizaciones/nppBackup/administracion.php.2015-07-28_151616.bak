@@ -99,18 +99,6 @@ while ($campo = mysql_fetch_array($resultado)) {
         }
         function ver_p() {
             location.href = "cat_prod.php";
-        }        
-        function agregar_pro() {
-            location.href = "?sec=alta_pro";
-        }
-        function eliminar_pro() {
-            location.href = "?sec=baja_pro";
-        }
-        function modificar_pro() {
-            location.href = "?sec=cambio_pro";
-        }
-        function ver_pro() {
-            location.href = "?sec=proyectos";
         }
 
 
@@ -231,12 +219,6 @@ while ($campo = mysql_fetch_array($resultado)) {
                             </li>
                             <li>
                               <img src="images/1proyectos.png" width="17px"><span>Proyectos</span>
-                              <ul>
-                                <li onclick="agregar_pro()"><img src="images/2anadir.png" width="20px"><span>Agregar proyecto</span></li>
-                                <li onclick="eliminar_pro()"><img src="images/1eliminar.png" width="20px"><span>Eliminar proyecto</span></li>
-                                <li onclick="modificar_pro()"><img src="images/1modificar.png" width="20px"><span>Modificar proyecto</span></li>
-                                <li onclick="ver_pro()"><img src="images/1ver.png" width="20px"><span>Visualizar proyectos</span></li>
-                              </ul> 
                             </li>
                         </ul>
                     </div>
@@ -302,19 +284,6 @@ while ($campo = mysql_fetch_array($resultado)) {
                         }
                         if ($seccion == "cambio_p") {
                             require_once("cambio_p.php");
-                        }                        
-                        
-                        if ($seccion == "alta_pro") {
-                            require_once("alta_pro.php");
-                        }
-                        if ($seccion == "baja_pro") {
-                            require_once("baja_pro.php");
-                        }
-                        if ($seccion == "cambio_pro") {
-                            require_once("cambio_pro.php");
-                        }
-                        if ($seccion == "proyectos") {
-                            require_once("proyectos.php");
                         }
 
                         if ($seccion == "creditos") {
