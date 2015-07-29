@@ -1,0 +1,84 @@
+#nav,#nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#nav {
+    clear: both;
+    font-size: 12px;
+    height: 58px;
+    padding: 0 0 0 9px;
+    position: relative;
+    width: 957px;
+    
+}
+#nav ul {
+    background-color: #404040;
+    border:1px solid #404040;
+    border-radius: 0 5px 5px 5px;
+    border-width: 0 1px 1px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    left: -9999px;
+    overflow: hidden;
+    position: absolute;
+    top: -9999px;
+    z-index: 2;
+    
+
+
+}
+#nav li {
+    
+    float: left;
+    position: relative;
+}
+#nav2 li {
+    
+    float: left;
+    position: relative;
+}
+#nav li a {
+    color: black;
+    display: block;
+    float: left;
+    font-weight: normal;
+    height: 20px;
+    padding: 10px 10px 5px 10px;
+    position: relative;
+    text-decoration: none;
+    margin:0 5px;
+    
+}
+#nav li:hover > a {
+    color: #20b8c1;
+}
+#nav li:hover, #nav a:focus, #nav a:hover, #nav a:active {
+    background: none repeat scroll 0 0 #121212;
+    outline: 0 none;
+}
+#nav li:hover ul.subs {
+    left: 0;
+    top: 35px;
+    width: 180px;
+
+}
+#nav ul li {
+    background: none;
+    width: 100%;
+}
+#nav ul li a {
+    float: none;
+    color:white;
+}
+#nav ul li:hover > a {
+    background-color: #121212;
+    color: #20b8c1;
+}
+
+.linea_vertical {
+    
+    float: left;
+    height: 3.0em;
+    border-right: 0.1em solid #d0d0d0;
+}
+
