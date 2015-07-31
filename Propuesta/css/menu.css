@@ -8,9 +8,9 @@
     font-size: 12px;
     height: 58px;
     padding: 0 0 0 9px;
-    position: relative;
+    position: center;
     width: 957px;
-    
+    float:right;
 }
 #nav ul {
     background-color: #404040;
