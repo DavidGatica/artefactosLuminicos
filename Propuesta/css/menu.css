@@ -32,13 +32,9 @@
     float: left;
     position: relative;
 }
-#nav2 li {
-    
-    float: left;
-    position: relative;
-}
+
 #nav li a {
-    color: black;
+    color: white;
     display: block;
     float: left;
     font-weight: normal;
@@ -46,6 +42,7 @@
     padding: 10px 10px 5px 10px;
     position: relative;
     text-decoration: none;
+        text-shadow: 1px 1px 1px #000000;
     margin:0 5px;
     
 }
