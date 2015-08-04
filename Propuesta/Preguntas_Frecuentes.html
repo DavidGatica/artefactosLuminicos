@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" >
     <head>
         <meta charset="UTF-8" />
         <meta name="keywords" content="HTML, CSS, PHP, JavaScript" />
@@ -7,19 +7,14 @@
         <title>Prueba de diseño</title>
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/menu.css" rel="stylesheet" type="text/css" />
-        	<script src="js/modernizr.custom.63321.js"></script>
-		<!--[if lte IE 7]><style>.support-note .note-ie{display:block;}</style><![endif]-->
     </head>
     <body>
-        <header>
-         <!--<div id="cTitulo">
-          <h1 id="titulo">Tu solución en iluminación<h1>
-         </div>--> 
+        <header> 
          <img id="logo" src="logo ALSA blanquitas.svg"/><br>
            
            <ul id="nav">
              
-                <li><a class="hsubs" href="#">Inicio</a>
+                <li><a class="hsubs" href="index.html">Inicio</a>
                  <div class="linea_vertical"></div> 
                 </li>
                 <li><a class="hsubs" href="#">Presentación</a>
@@ -29,7 +24,7 @@
                         <li><a href="#">Misión</a></li>
                         <li><a href="#">Visión</a></li>
                         <li><a href="#">¿Quiénes somos?</a></li>
-                        <li><a href="Preguntas_Frecuentes.html">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
                     </ul>
                 </li>
                 <li><a class="hsubs" href="#">Proyectos</a>
@@ -66,27 +61,55 @@
                   
             </ul>
         </header>
-          <br><br><br> 
-      
-       
-        <div id="imageGif">
-          <img src="index-alsa_31.gif">
-        </div>
+        <br><br><br><br><br>
+       <h1 id="PreguntasF">Preguntas Frecuentes</h1>
+        <dl>
+          <dt>¿Quienes somos?</dt>
+          <dd>Artefactos Luminicos S.A. de C.V.</dd>
+
+          <dt>¿Como puedes contactarnos?</dt>
+          <dd>Respuesta</dd>
+
+          <dt>¿Cuales son nuestros productos?</dt>
+          <dd>Respuesta</dd>
+          
+          <dt>¿Cuales son las formas de pago?
+          <dd>Respuesta</dd>
+
+          <dt>¿Donde estamos ubicados?</dt>
+          <dd>Respuesta</dd>
+
+          <dt>¿Para qué fines utilizaremos sus datos personales?</dt>
+          <dd>Los datos personales que recabamos de usted, los utilizaremos para las siguientes finalidades que son necesarias<br/>
+              para el servicio que solicita:<br/>
+              ● Facturación<br/>
+              De manera adicional, utilizaremos su información personal para las siguientes finalidades secundarias que no son<br/>
+              necesarias para el servicio solicitado, pero que nos permiten y facilitan brindarle una mejor atención:<br/>
+              ● Calidad del servicio<br/>
+              ● Promociones<br/>
+              ● Mercadotecnia o publicitaria<br/>
+              ● Prospección comercial<br/>
+              <br/>
+              La negativa para el uso de sus datos personales para estas finalidades no podrá ser un motivo para que le neguemos<br/>
+              los servicios y productos que solicita o contrata con nosotros.<br/></dd>
+        </dl>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript">
+          $('dl dd').not('dt.activo + dd').hide();
+             $('dl dt').click(function(){
+                if ($(this).hasClass('activo')) {
+                     $(this).removeClass('activo');
+                     $(this).next().slideUp();
+                } else {
+                     $('dl dt').removeClass('activo');
+                     $(this).addClass('activo');
+                     $('dl dd').slideUp();
+                     $(this).next().slideDown();
+                }
+             });
+         </script>
+             
         
-        
-        
-        <div id="Provider">
-          <!----<a>Nuestros Poveedores</a>
-          <ul>
-            <li><a>HOLOPHANE</a></li>
-            <li><a>Lithonia Lighting</a></li>
-          </ul>
-          <ul>
-            <li><a>AEL</a></li>
-            <li><a>HYDREL</a></li>
-            <li><a>kILLARK</a></li>
-          </ul> -->
-        </div>
         
         
         <footer>

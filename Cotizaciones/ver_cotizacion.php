@@ -168,8 +168,7 @@
                                 </td>
                                 <td id="bordet"  align="left" class="h7"><br><h3><div class="h7">Condiciones de venta</div></h3><h5 class="h7">
                                         *Precios sujetos a cambio sin previo aviso.
-                                        <br>*Cotizaciones confirmadas en dolares hacer pago en dolares a la cuenta 451244981 
-                                        CLABE 012180004512449814 de Bancomer.
+                                        <br>*Cuenta 0451244973 CLABE 012180004512449814 de Bancomer.
                                         <br>*Toda devolución autorizada causará un cargo del 35%.
                                         <br>*No se aceptan cancelaciones.
                                         <br>*La empresa se reserva el derecho de hacer cargos por
