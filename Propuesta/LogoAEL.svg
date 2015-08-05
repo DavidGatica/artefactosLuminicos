@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg7386"
+   viewBox="0 0 1256.1412 337.6988"
+   height="95.306107mm"
+   width="354.51096mm">
+  <defs
+     id="defs7388">
+    <linearGradient
+       id="linearGradient8026">
+      <stop
+         id="stop8028"
+         offset="0"
+         style="stop-color:#e8db00;stop-opacity:1" />
+      <stop
+         id="stop8030"
+         offset="1"
+         style="stop-color:#dc0101;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="327.34509"
+       x2="-495.04318"
+       y1="478.79526"
+       x1="-797.17352"
+       id="linearGradient8036"
+       xlink:href="#linearGradient8026" />
+  </defs>
+  <metadata
+     id="metadata7391">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(1075.9542,-308.6917)"
+     id="layer1">
+    <path
+       id="path7934"
+       d="M -789.93249,631.8702 -917.87932,341.54889 -1047.5674,622.98282"
+       style="fill:none;fill-rule:evenodd;stroke:#242420;stroke-width:62.51150131;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path7940"
+       d="m -541.17494,346.88299 -165.78287,2.46492 2.90847,251.42295 168.69134,-2.46494"
+       style="fill:none;fill-rule:evenodd;stroke:#242420;stroke-width:58.10245895;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path7944"
+       d="m -450.67095,326.0663 1.67582,273.04409 220.02735,0.0418"
+       style="fill:none;fill-rule:evenodd;stroke:#242420;stroke-width:69.98965454;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       transform="scale(0.83148529,1.2026671)"
+       id="text7956"
+       y="321.05737"
+       x="-240.56549"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:84.74292755px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="321.05737"
+         x="-240.56549"
+         id="tspan7958">American</tspan></text>
+    <text
+       transform="scale(0.84494071,1.183515)"
+       id="text7960"
+       y="425.2316"
+       x="-237.5462"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:86.11426544px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="425.2316"
+         x="-237.5462"
+         id="tspan7962">Electric</tspan></text>
+    <text
+       transform="scale(0.88688454,1.1275425)"
+       id="text7968"
+       y="554.66602"
+       x="-223.47372"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:86.21854401px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="554.66602"
+         x="-223.47372"
+         id="tspan7970">Lighting</tspan></text>
+    <text
+       id="text7972"
+       y="569.50507"
+       x="145.71429"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="569.50507"
+         x="145.71429"
+         id="tspan7974">®</tspan></text>
+    <path
+       transform="matrix(1.2966993,-0.02722939,0.10223491,-0.84046196,67.710129,914.86504)"
+       d="m -587.98298,532.75224 c -30.58462,51.99872 -100.55526,63.9485 -150.40906,33.15748 -25.80042,-15.93502 -44.70678,-41.62789 -53.04285,-70.71244"
+       id="path7984"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient8036);stroke-width:28.24734116;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
