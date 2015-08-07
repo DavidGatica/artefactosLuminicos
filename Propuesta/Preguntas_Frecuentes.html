@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" class="no-js">
     <head>
         <meta charset="UTF-8" />
         <meta name="keywords" content="HTML, CSS, PHP, JavaScript" />
@@ -7,12 +7,35 @@
         <title>Prueba de diseño</title>
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/menu.css" rel="stylesheet" type="text/css" />
+        
     </head>
     <body>
-        <header> 
-         <img id="logo" src="logo ALSA blanquitas.svg"/><br>
-           
-           <ul id="nav">
+    
+        <header>
+         <img id="logo" src="logo ALSA blanquitas.svg" /> <br><br><br>
+         <h1 id="tittle">Tu solución en iluminación<h1>
+         <div id="search">
+                     <script>
+            (function() {
+              var cx = '013486087382821800792:pihurugfvgo';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                  '//cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search></gcse:search>
+         </div>
+         
+        </header>
+        
+        <div id="DownHeader"></div>
+        
+        <div class="menuContainer">
+         <ul id="nav">
              
                 <li><a class="hsubs" href="index.html">Inicio</a>
                  <div class="linea_vertical"></div> 
@@ -24,7 +47,7 @@
                         <li><a href="#">Misión</a></li>
                         <li><a href="#">Visión</a></li>
                         <li><a href="#">¿Quiénes somos?</a></li>
-                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="Preguntas_Frecuentes.html">Preguntas Frecuentes</a></li>
                     </ul>
                 </li>
                 <li><a class="hsubs" href="#">Proyectos</a>
@@ -60,10 +83,11 @@
                 <li><a href="#">Contáctanos</a></li>
                   
             </ul>
-        </header>
-        
-        <br><br><br><br><br>
-       <h1 id="PreguntasF">Preguntas Frecuentes</h1>
+        </div>  
+       <div id="titlePreguntas">       
+        <h1>Preguntas Frecuentes</h1>
+       </div>
+       
         <dl>
           <dt>¿Quienes somos?</dt>
           <dd>Artefactos Luminicos S.A. de C.V.</dd>
@@ -109,8 +133,19 @@
                 }
              });
          </script>
-             
+      
+       
         
+     
+        
+        <div id="Provider">
+        <a id="ProviderText"> Nuestros proveedores:</a>
+         <img id="Holophane" src="LogoHolophane.svg" />
+         <img id="Lithonia" src="LogoLithonia.svg"/>
+         <img id="AEL" src="LogoAEL.svg" />
+          <img id="Hydrel" src="LogoHYDREL.svg" />
+         <img id="Killark" src="LogoKILLARK.svg" />
+        </div>
         
         
         <footer>
