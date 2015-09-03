@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	 <!-- Flickity gallery styles -->
+	<link rel="stylesheet" type="text/css" href="css/flickity.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+  <script src="datos.js"></script>
+</head>
+
+<body>
+	<!-- Bottom bar with filter and cart info -->
+	<div class="bar">
+		<div class="filter">
+			<span class="filter__label">Filter: </span>
+	<button name="nproductos" onclick="productos()" id="idproductos" class="action filter__item filter__item--selected" data-filter="*">Productos</button>
+			<button class="action filter__item" data-filter=".jackets"><i class="icon icon--jacket"></i><span class="action__text">Iluminación Industrial</span></button>
+			<button class="action filter__item" data-filter=".shirts"><i class="icon icon--shirt"></i><span class="action__text">Iluminación Fluorescente</span></button>
+			<button class="action filter__item" data-filter=".dresses"><i class="icon icon--dress"></i><span class="action__text">Iluminación Exterior</span></button>
+			<button class="action filter__item" data-filter=".trousers"><i class="icon icon--trousers"></i><span class="action__text">Iluminación de Emergencia</span></button>
+			<button class="action filter__item" data-filter=".shoes"><i class="icon icon--shoe"></i><span class="action__text">Iluminación Interior</span></button>
+		</div>
+		<button class="cart">
+			
+		</button>
+	</div>
+	<!-- Main view -->
+	<div class="view">
+	
+		<!-- Grid -->
+		<section class="grid grid--loading">
+			<!-- Loader -->
+			<img class="grid__loader" src="images/grid.svg" width="60" alt="Loader image" />
+			<!-- Grid sizer for a fluid Isotope (Masonry) layout -->
+			<div class="grid__sizer"></div>
+			<!-- Grid items -->
+      
+		
+			<div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/NEN ENDURALUME.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/NEN ENDURALUME.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/NEN ENDURALUME.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">NEN ENDURALUME</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/PETROLUME.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PETROLUME.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PETROLUME.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Petrolume</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/PETROLUX II.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PETROLUX II.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PETROLUX II.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Petrolux II</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/PETROLUX.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PETROLUX.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PETROLUX.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Petrolux</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/Prismalume cerrado.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/Prismalume cerrado.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/Prismalume cerrado.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Prismalume cerrado</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMALUME.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMALUME.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMALUME.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Prismalume</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMATITE FLUORESCENTE.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMATITE FLUORESCENTE.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMATITE FLUORESCENTE.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Prismatite Fluorescente</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMGLO.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMGLO.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMGLO.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Prismglo</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMPACK CERRADO.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMPACK CERRADO.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMPACK CERRADO.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Prismpack Cerrado</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMPACK.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMPACK.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/PRISMPACK.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Prismpack</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/sh pa22.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/sh pa22.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/sh pa22.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">SH PA22</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/sh pa25.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/sh pa25.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/sh pa25.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">SH PA25</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/th a14.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/th a14.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/th a14.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">TH A14</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/th.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/th.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/th.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">TH</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+       <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/THD.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/THD.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/THD.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">THD</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/THR.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/THR.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/THR.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">THR</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/tx a121-a125.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/tx a121-a125.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/tx a121-a125.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">TX A121/A125</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/txc.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/txc.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/txc.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">TXC</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+       <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/VANTAGE ALT.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/VANTAGE ALT.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/VANTAGE ALT.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Vantage Alt</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+       <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/VANTAGE MINI.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/VANTAGE MINI.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/VANTAGE MINI.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Vantage Mini</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>
+      
+      <div class="grid__item jackets">
+				<div class="slider">
+					<div class="slider__item"><img src="images/INDUSTRIAL/VANTAGE RTT.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/VANTAGE RTT.JPG" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/INDUSTRIAL/VANTAGE RTT.JPG" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Vantage RTT</h3>
+					<span class="meta__brand">Artefactos Luminicos</span>
+					<span class="meta__price">Ver más</span>
+				</div>
+				<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+			</div>   
+      
+		</section>
+		<!-- /grid-->
+	</div>
+	<!-- /view -->
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
